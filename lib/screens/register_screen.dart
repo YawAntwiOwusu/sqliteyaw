@@ -75,7 +75,7 @@ class RegisterScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           hintText: "First Name",
                           hintStyle: TextStyle(
-                            color: Colors.green[400],
+                            color: Color.fromARGB(255, 226, 135, 74),
                             fontWeight: FontWeight.w600,
                           ),
                           fillColor: Colors.green[50],
@@ -94,7 +94,7 @@ class RegisterScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           hintText: "Last Name",
                           hintStyle: TextStyle(
-                            color: Colors.green[400],
+                            color: Color.fromARGB(255, 238, 126, 98),
                             fontWeight: FontWeight.w600,
                           ),
                           fillColor: Colors.green[50],
@@ -113,7 +113,7 @@ class RegisterScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           hintText: "Email",
                           hintStyle: TextStyle(
-                            color: Colors.green[400],
+                            color: Color.fromARGB(255, 238, 152, 82),
                             fontWeight: FontWeight.w600,
                           ),
                           fillColor: Colors.green[50],
@@ -136,7 +136,7 @@ class RegisterScreen extends StatelessWidget {
                             color: Colors.green[400],
                             fontWeight: FontWeight.w600,
                           ),
-                          fillColor: Colors.green[50],
+                          fillColor: Color.fromARGB(255, 219, 150, 71),
                           filled: true,
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
@@ -153,7 +153,7 @@ class RegisterScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           hintText: "Confirm Password",
                           hintStyle: TextStyle(
-                            color: Colors.green[400],
+                            color: Color.fromARGB(255, 241, 141, 102),
                             fontWeight: FontWeight.w600,
                           ),
                           fillColor: Colors.green[50],
@@ -173,7 +173,7 @@ class RegisterScreen extends StatelessWidget {
                           Text(
                             "By signing in you agree to  our ",
                             style: TextStyle(
-                              color: Colors.green[900],
+                              color: Color.fromARGB(255, 235, 78, 5),
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -201,7 +201,7 @@ class RegisterScreen extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             shape: StadiumBorder(),
-                            primary: Colors.green[900],
+                            primary: Color.fromARGB(255, 228, 87, 5),
                           ),
                           onPressed: () {
                             bool isPasswordsEqual = (_passwordController.text ==

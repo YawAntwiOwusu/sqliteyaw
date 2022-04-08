@@ -40,7 +40,7 @@ class LoginScreen extends StatelessWidget {
                       Text(
                         "Welcome back",
                         style: TextStyle(
-                          color: Color(0XFF2EB886),
+                          color: Color.fromARGB(255, 218, 88, 56),
                           fontSize: 28,
                           fontWeight: FontWeight.w600,
                         ),
@@ -58,7 +58,7 @@ class LoginScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           hintText: "Email",
                           hintStyle: TextStyle(
-                            color: Colors.green[400],
+                            color: Color.fromARGB(255, 231, 118, 26),
                             fontWeight: FontWeight.w600,
                           ),
                           fillColor: Colors.green[50],
@@ -77,7 +77,7 @@ class LoginScreen extends StatelessWidget {
                         decoration: InputDecoration(
                           hintText: "Password",
                           hintStyle: TextStyle(
-                            color: Colors.green[400],
+                            color: Color.fromARGB(255, 230, 155, 94),
                             fontWeight: FontWeight.w600,
                           ),
                           fillColor: Colors.green[50],
@@ -96,7 +96,7 @@ class LoginScreen extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             shape: StadiumBorder(),
-                            primary: Colors.green[900],
+                            primary: Color.fromARGB(255, 218, 54, 13),
                           ),
                           onPressed: () async {
                             User user = await DatabaseHelper.instance.getUser();

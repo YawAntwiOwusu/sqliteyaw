@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 class IntroScreen extends StatelessWidget {
@@ -53,7 +51,7 @@ class IntroScreen extends StatelessWidget {
                     child: Text(
                       "Sign up",
                       style: TextStyle(
-                        color: Colors.green,
+                        color: Color.fromARGB(255, 245, 130, 85),
                         fontWeight: FontWeight.bold,
                       ),
                     ),

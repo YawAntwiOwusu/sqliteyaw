@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                     SizedBox(height: 20),
                     Center(
                       child: CircleAvatar(
-                        backgroundColor: Color.fromARGB(255, 7, 82, 45),
+                        backgroundColor: Color.fromARGB(255, 238, 73, 7),
                         radius: 60,
                         child: FlutterLogo(
                           size: 60,
